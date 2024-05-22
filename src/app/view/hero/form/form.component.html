@@ -1,0 +1,10 @@
+<div>
+    <form [formGroup]="formGroup">
+        <input placeholder="name" formControlName="name">
+        <input placeholder="email" formControlName="email">
+        <button (click)="submit()" [disabled]="formGroup.invalid">enviar</button>
+
+
+    </form>
+
+</div>  
